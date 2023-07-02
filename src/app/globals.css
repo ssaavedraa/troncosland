@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Breymont Light';
+  src: url('../../public/fonts/Breymont-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Breymont Bold';
+  src: url('../../public/fonts/Breymont-Bold.ttf');
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,6 +26,11 @@
   }
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +39,19 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    overflow-x: hidden;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #1f242d;
+}
+
+*::-webkit-scrollbar {
+  width: 2px;
+  background-color: #1f242d;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(244, 162, 97, 0.555);
+  border-radius: 6px;
 }
