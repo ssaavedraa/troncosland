@@ -5,13 +5,13 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '¡Experimenta el Mejor Servidor de Juego de Rust en Colombia con Saqueo 2x y Administradores no jugadores!',
-  description: 'Únete al mejor servidor de juego de Rust en Colombia para disfrutar de una experiencia de juego mejorada con tasas de saqueo aumentadas y una jugabilidad justa. Disfruta de un juego equilibrado con un rendimiento optimizado del servidor. ¡Únete ahora!',
+  title: 'TroncosLand | LATAM Rust',
+  description: 'Únete al mejor servidor de juego de Rust en LATAM para disfrutar de una experiencia de juego mejorada con tasas de saqueo aumentadas y una jugabilidad justa. Disfruta de un juego equilibrado con un rendimiento optimizado del servidor. ¡Únete ahora!',
   openGraph: {
-    title: 'TroncosLand | Rust',
-    description: 'Únete al mejor servidor de juego de Rust en Colombia para disfrutar de una experiencia de juego mejorada con tasas de saqueo aumentadas y una jugabilidad justa. Disfruta de un juego equilibrado con un rendimiento optimizado del servidor. ¡Únete ahora!',
+    title: 'TroncosLand | LATAM Rust',
+    description: 'Únete al mejor servidor de juego de Rust en LATAM para disfrutar de una experiencia de juego mejorada con tasas de saqueo aumentadas y una jugabilidad justa. Disfruta de un juego equilibrado con un rendimiento optimizado del servidor. ¡Únete ahora!',
     url: 'https://troncosland.co',
-    siteName: 'TroncosLand',
+    siteName: 'TroncosLand - LATAM',
     images: [
       {
         url: '/Web-Cover.png',
