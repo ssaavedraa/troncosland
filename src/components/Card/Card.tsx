@@ -6,7 +6,7 @@ type CardProps = {
 
 export default function Card ({ title, price, features }: CardProps) {
   return (
-    <div className='bg-[#034160] p-4 rounded-2xl m-4 w-[30%] shadow-lg'>
+    <div className='bg-[#034160] p-4 rounded-2xl m-4 w-[90%] xl:w-[30%] shadow-lg'>
       <strong className='block text-orange text-xl'>{title}</strong>
       <strong className='block text-3xl my-2'>${price} USD/Mes</strong>
       {features.map((feature, index) => (

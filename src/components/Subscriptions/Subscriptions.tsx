@@ -21,8 +21,8 @@ const subscriptions = [
 
 export default function Subscriptions () {
   return (
-    <section className='w-2/3 m-auto my-6'>
-      <div className='my-8 flex overflow-x-auto flex-wrap items-center justify-center'>
+    <section className='w-[90vw] 2xl:w-2/3 m-auto my-6'>
+      <div className='my-8 flex flex-col xl:flex-row overflow-x-auto flex-wrap items-center justify-center'>
         {subscriptions.map(({ title, price, features }, index) => <Card key={index} title={title} price={price} features={features} />)}
         <small className='w-full text-[#2A9D8F] text-center'>En nuestro servidor, la diversión y la igualdad son nuestra máxima prioridad. No es un &quot;pay to win&quot;, es una experiencia inigualable.</small>
       </div>
