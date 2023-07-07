@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type CardProps = {
   title: string
   price: string
@@ -6,7 +8,7 @@ type CardProps = {
 
 export default function Card ({ title, price, features }: CardProps) {
   return (
-    <div className='bg-[#034160] p-4 rounded-2xl m-4 w-[30%] shadow-lg'>
+    <div className='bg-[#034160] p-4 rounded-2xl m-4 w-[90%] xl:w-[30%] shadow-lg'>
       <strong className='block text-orange text-xl'>{title}</strong>
       <strong className='block text-3xl my-2'>${price} USD/Mes</strong>
       {features.map((feature, index) => (
@@ -15,7 +17,8 @@ export default function Card ({ title, price, features }: CardProps) {
           <p className='inline ml-2'>{feature}</p>
         </div>
       ))}
-      <button className='bg-yellow-400 text-[#034160] w-full rounded-lg px-6 py-2 mt-4'>¡Suscribirme!</button>
+
+      <Link href='https://troncosland.tebex.io/category/' target='_blank' className='bg-yellow-400 text-[#034160] w-full rounded-lg px-6 py-2 mt-4 block text-center'>¡Suscribirme!</Link>
     </div>
   )
 }

@@ -3,6 +3,7 @@ import background from '../../public/images/Web-Cover.webp'
 import Welcome from '@/components/Welcome/Welcome'
 import Subscriptions from '@/components/Subscriptions/Subscriptions'
 import Footer from '@/components/Footer/Footer'
+import FAQ from '@/components/FAQ/FAQ'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       </main>
       <Welcome />
       <Subscriptions />
+      <FAQ />
       <Footer />
     </>
   )
