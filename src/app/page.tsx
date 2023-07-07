@@ -20,7 +20,7 @@ export default function Home() {
           className='relative inline-block align-middle max-w-[120%] xl:max-w-full xl:w-full'
           priority
         />
-        <Link href='https://discord.gg/PSEBwh6h9p' target='_blank' className='absolute z-20 inline-flex items-center bg-[#5865F2] py-[0.15rem] px-2 rounded-md top-[calc(50%+2.5rem)] xl:top-[calc(50%+7rem)] left-[calc(100vw/2-160px)] xl:left-[calc(50vw-380px)] w-[220px] xl:w-[260px] text-sm xl:text-base'>
+        <Link href='https://discord.gg/PSEBwh6h9p' target='_blank' className='absolute z-20 inline-flex items-center bg-[#5865F2] py-[0.15rem] px-2 rounded-md top-[calc(50%+2.5rem)] xl:top-[calc(50%+7rem)] left-[calc(100vw/2-160px)] xl:left-[calc(50vw-367px)] w-[220px] xl:w-[240px] text-sm xl:text-base'>
           <Discord width={18} height={18}/>
           <span>
             Unete a nuestro Discord
