@@ -10,7 +10,7 @@ export default function FaqItem ({ question, answer }: FaqItemProps) {
     if (answer.includes('nuestro discord')) {
       const splittedByKeyword = answer.split('nuestro discord')
 
-      return <p>{splittedByKeyword[0]}<Link href='https://discord.gg/45GP2QCn' target='_blank' className='text-[#E9C46A]'>nuestro discord</Link>{splittedByKeyword[1]}</p>
+      return <p>{splittedByKeyword[0]}<Link href='https://discord.gg/PSEBwh6h9p' target='_blank' className='text-[#E9C46A]'>nuestro discord</Link>{splittedByKeyword[1]}</p>
     }
 
     return <p>{answer}</p>

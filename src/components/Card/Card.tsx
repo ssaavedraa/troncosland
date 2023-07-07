@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type CardProps = {
   title: string
   price: string
@@ -15,7 +17,8 @@ export default function Card ({ title, price, features }: CardProps) {
           <p className='inline ml-2'>{feature}</p>
         </div>
       ))}
-      <button className='bg-yellow-400 text-[#034160] w-full rounded-lg px-6 py-2 mt-4'>¡Suscribirme!</button>
+
+      <Link href='https://troncosland.tebex.io/category/' target='_blank' className='bg-yellow-400 text-[#034160] w-full rounded-lg px-6 py-2 mt-4 block text-center'>¡Suscribirme!</Link>
     </div>
   )
 }
